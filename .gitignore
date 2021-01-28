@@ -1,3 +1,5 @@
 # DB data
 docker/db/data/*
 server/*
+!server/info.php
+!server/index.html
