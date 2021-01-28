@@ -1,0 +1,3 @@
+# DB data
+docker/db/data/*
+server/*
