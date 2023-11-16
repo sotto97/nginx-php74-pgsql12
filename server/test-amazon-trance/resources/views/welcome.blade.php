@@ -27,12 +27,12 @@
                     <div class="flex w-full mx-auto justify-center">
                         <a href="{{ route('login') }}"
                             class="w-1/4 h-14 bg-yellow-500 hover:bg-yellow-600 transition text-white rounded-lg flex items-center justify-center">
-                            LOGIN
+                            Log in
                         </a>
                         <div class="w-1/12"></div>
                         <a href="{{ route('register') }}"
                             class="w-1/4 h-14 bg-yellow-500 hover:bg-yellow-600 transition text-white rounded-lg flex items-center justify-center">
-                            REGISTER
+                            Sign up
                         </a>
                     </div>
                 </div>

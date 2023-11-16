@@ -53,12 +53,12 @@
 
                     <button
                         class="block rounded-lg bg-yellow-500 hover:bg-yellow-600 px-8 py-2 text-center font-semibold text-white outline-none transition">
-                        Sign in
+                        Sign up
                     </button>
 
                     <div class="relative flex items-center justify-center">
                         <span class="absolute inset-x-0 h-px bg-gray-300"></span>
-                        <span class="relative bg-white px-4 text-sm text-gray-400">Log in with social</span>
+                        <span class="relative bg-white px-4 text-sm text-gray-400">Sign up with social</span>
                     </div>
 
                     <button
