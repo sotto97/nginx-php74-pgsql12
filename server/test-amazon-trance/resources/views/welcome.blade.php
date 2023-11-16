@@ -23,18 +23,17 @@
                     SCS CoffeE Lab.
                 </h1>
                 <img src="{{ asset('img/coffee-cup-to-go.png') }}" alt="" class="w-1/4 mb-4">
-                {{-- <div class="flex w-full justify-center my-4"> --}}
-                <div class="grid">
-                    <div class="flex">
-                        <div class="w-2/3 bg-yellow-500 hover:bg-yellow-600 transition text-white px-8 py-4 rounded-lg">
-                            <a href="{{ route('login') }}" class="">
-                                LOGIN
-                            </a>
-                        </div>
-                        <a class="w-10 mx-4"></a>
-                        <div class="w-2/3 bg-yellow-500 hover:bg-yellow-600 transition text-white px-8 py-4 rounded-lg">
-                            <a href="{{ route('register') }}" class="">REGISTER</a>
-                        </div>
+                <div class="grid w-full">
+                    <div class="flex w-full mx-auto justify-center">
+                        <a href="{{ route('login') }}"
+                            class="w-1/4 h-14 bg-yellow-500 hover:bg-yellow-600 transition text-white rounded-lg flex items-center justify-center">
+                            LOGIN
+                        </a>
+                        <div class="w-1/12"></div>
+                        <a href="{{ route('register') }}"
+                            class="w-1/4 h-14 bg-yellow-500 hover:bg-yellow-600 transition text-white rounded-lg flex items-center justify-center">
+                            REGISTER
+                        </a>
                     </div>
                 </div>
             </div>
