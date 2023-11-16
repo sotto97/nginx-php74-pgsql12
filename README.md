@@ -1,3 +1,4 @@
-### docker 起動
+## TODO
 
-`$ docker-compose up -d`
+- DB ユーザーを適切に設定する
+- コンテナごとに適切なユーザーを作成する

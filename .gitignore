@@ -1,8 +1,6 @@
 # DB data
 docker/db/data/*
 docker/nginx/ssl/*
-server/*
-!server/info.php
-!server/index.html
 .DS_Store
 docker/nginx/.DS_Store
+*_copy*
